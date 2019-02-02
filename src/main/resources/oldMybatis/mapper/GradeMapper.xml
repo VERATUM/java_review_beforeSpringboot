@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oldMybatis.dao.GradeDao">
+	<select id="getAllGrade" resultType="grade">
+		select * from grade;
+	</select>
+	<insert id="addGrade" parameterType="grade">
+        insert into grade(gid,gname) values (#{gid},#{gname});
+    </insert>
+    <delete id="delGrade" parameterType="grade">
+        delete from grade where gid = #{gid};
+    </delete>
+    <delete id="delGradeById" parameterType="java.lang.Integer">
+        delete from grade where gid = #{t};
+    </delete>
+    <update id="updateGrade" parameterType="grade">
+        update grade set gname = #{gname} where gid = #{gid};
+    </update>
+    <select id="getGrade" parameterType="java.lang.Integer" resultType="Grade">
+        select * from grade where gid = #{gid};
+    </select>
+ </mapper>

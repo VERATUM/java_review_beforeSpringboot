@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<!-- c3p0配置 -->
+<c3p0-config>
+	<default-config>
+		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/test_java?useSSL=false&amp;serverTimezone=GMT%2B8</property>
+		<property name="user">root</property>
+		<property name="password">0504</property>
+	</default-config>
+</c3p0-config>

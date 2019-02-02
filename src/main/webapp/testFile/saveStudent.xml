@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<students> 
+  <student xh="103"> 
+    <name>纷纷</name>  
+    <age>23</age>  
+    <address>萨法</address> 
+  </student>  
+  <student xh="104"> 
+    <name>地方</name>  
+    <age>24</age>  
+    <address>覆盖</address> 
+  </student>  
+  <student xh="105"> 
+    <name>atu</name>  
+    <age>25</age>  
+    <address>的撒</address> 
+  </student>  
+  <student xh="0"> 
+    <name>我是谁</name>  
+    <age>25</age>  
+    <address>ver@dd</address> 
+  </student> 
+</students>

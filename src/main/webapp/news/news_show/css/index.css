@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/*news_show/index.jsp*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#news_show{
+	font-size:18px;
+	font-family: monospace;
+	width: 80%;
+	margin: 0px auto;
+	background-color: lightgray;
+}
+/*title*/
+#news_show .title{
+	margin-top: 20px;
+}
+#news_show .title .p_title{
+	background: black;
+	color: white;
+	line-height: 36px;
+	text-indent: 36px;
+}
+#news_show .title #ul_title{
+	overflow: hidden;
+	margin: 10px;
+	background-color: burlywood;
+}
+#news_show .title #ul_title li{
+	width: 18%;
+	float: left;
+	list-style-type: none;
+	margin:1%;
+}
+#news_show .title a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+#news_show .title a:hover{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+#news_show .title .p1_title{
+	background-color: cyan;
+}
+/**/
+#news_show .content{
+	margin-top: 20px;
+}
+#news_show .content a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+#news_show .content a:hover{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+#news_show .content p{
+	background: black;
+	color: white;
+	line-height: 36px;
+	text-indent: 36px;
+}
+#news_show .content #ul_content_top{
+	background-color: lightgreen;
+	color: red;
+	font-weight: bold;
+}
+#news_show .content ul{
+	overflow: hidden;
+	margin: 10px;
+	background-color: burlywood;
+}
+#news_show .content ul li{
+	width: 32%;
+	float: left;
+	list-style-type: none;
+	margin:0.5%;
+}
+#news_show .content .show{
+	line-height: 36px;
+	text-indent: 36px;
+}
+#news_show .content p a{
+	text-decoration: none;
+	color: white;
+}
+#news_show .content p a:hover{
+	text-decoration: none;
+	color: red;
+}

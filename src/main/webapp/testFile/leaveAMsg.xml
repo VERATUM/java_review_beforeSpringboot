@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!DOCTYPE xml>
+
+<messages> 
+  <message id="1"> 
+    <title>jj</title>  
+    <time>2018-09-07 22:21:04</time>  
+    <content>llloppp</content> 
+  </message>  
+  <message id="2"> 
+    <title>klj</title>  
+    <time>2018-09-07 22:24:36</time>  
+    <content>jhklg</content> 
+  </message>  
+  <message id="3"> 
+    <title>lop</title>  
+    <time>2018-09-09 08:43:17</time>  
+    <content>helli kit</content> 
+  </message>  
+  <message id="4"> 
+    <title>i'm full of angry</title>  
+    <time>2018-09-10 11:41:00</time>  
+    <content>you must be there to explain what you did last night...</content> 
+  </message>  
+  <message id="5"> 
+    <title>you're all right</title>  
+    <time>2018-09-10 11:42:04</time>  
+    <content>I'm the selected one to accept your excuse, why always me? give me your conclusion</content> 
+  </message>  
+  <message id="6"> 
+    <title>test01</title>  
+    <time>2019-01-26 13:19:58</time>  
+    <content>hello test01</content> 
+  </message>  
+  <message id="7"> 
+    <title>test02</title>  
+    <time>2019-01-26 13:20:07</time>  
+    <content>hello test02</content> 
+  </message>  
+  <message id="8"> 
+    <title>test03</title>  
+    <time>2019-01-26 13:20:17</time>  
+    <content>hello test03</content> 
+  </message> 
+</messages>

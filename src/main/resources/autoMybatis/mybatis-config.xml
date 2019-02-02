@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 配置类型别名 -->
+	<typeAliases>
+		<!-- 将某个类型取别名 <typeAlias type="com.entity.Grade" alias="Grade"/> 将某个包下所有的类别类型别名:注意:别名就是类名 -->
+		<package name="com.autoMybatis.entity" />
+	</typeAliases>
+	<!--分页插件 -->
+	<plugins>
+		<plugin interceptor="com.github.pagehelper.PageInterceptor" />
+	</plugins>
+	<!-- 指定义连接数据的配置 -->
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.cj.jdbc.Driver" />
+				<property name="url"
+					value="jdbc:mysql://localhost:3306/ver_db21?useSSL=false&amp;serverTimezone=GMT%2B8" />
+				<property name="username" value="root" />
+				<property name="password" value="0504" />
+			</dataSource>
+		</environment>
+	</environments>
+
+	<!-- 加载sql映射文件 -->
+	<mappers>
+		<mapper resource="autoMybatis/mapper/StudentMapper.xml" />
+	</mappers>
+</configuration>
